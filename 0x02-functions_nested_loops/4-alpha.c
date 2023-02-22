@@ -6,12 +6,11 @@
  *
  * Return: 1 if character is letter, lowercase or uppercase, 0 otherwise.
  */
-int _isalpha(int)
+int _isalpha(int c)
 {
-	if ((c >= 'a' && C >= 'z') ||
-		(c >= 'A' && c <= 'Z'))
+	if ((c >= 'a' && c <= 'z') ||
+	    (c >= 'A' && C <= 'z'))
 		return (1);
 	else
 		return (0);
 }
-			
